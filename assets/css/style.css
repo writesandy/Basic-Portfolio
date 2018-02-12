@@ -1,12 +1,37 @@
-div {
-    width: 960;
-    border: 
-}
+body {
+    width: 960px;
+    margin: 155px;
 
+}
 header li {
-    display: inline-block
+    display: inline-block;
 }
 
-body{
-    background-color: tomato
+#main {
+    float: left;
+    width: 650px;
+    border: 1px dashed grey;
+    margin-right: 40px;
+       
+}
+
+#sidebar{
+     float: right;
+    box-sizing: 270px;
+    margin-left: 40px;
+  
+
+}
+
+#footer{
+    clear: both;
+    float: bottom;
+}
+
+
+
+div{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: blue;
 }
