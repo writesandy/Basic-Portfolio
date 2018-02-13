@@ -1,33 +1,44 @@
-body {
-    width: 960px;
-    margin: 155px;
-
+.wrapper {
+    background: #ffffff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
 header li {
     display: inline-block;
 }
 
-#main {
+.main {
     float: left;
     width: 650px;
+    margin-right: 19px;
+    height: 100px;
     border: 1px dashed grey;
-    margin-right: 40px;
        
 }
 
-#sidebar{
-     float: right;
-    box-sizing: 270px;
-    margin-left: 40px;
-  
+.sidebar{
+    float: right;
+    width: 270px;
+    margin-left: 19px;
+    height: 100px;
+    margin-left: 0px;  
 
 }
 
-#footer{
+.box{
+    height: auto;
+}
+
+.footer{
     clear: both;
     float: bottom;
 }
 
+.footer p{
+    text-align: center;
+}
 
 
 div{
