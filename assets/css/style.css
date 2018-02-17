@@ -12,8 +12,8 @@ Main content border color: #dddddd */
 }
 
 main{
-    background-image: url("../images/darkbkg.png");
-
+    border-top: 1px solid #cccccc;
+    background-image: url("../images/ltbkg.png");
 
 }
 
@@ -44,7 +44,7 @@ h2{
 
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
     display: inline-block;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -83,6 +83,10 @@ li a{
     text-decoration: none;
 }
 
+li a:hover{
+    text-decoration: underline;
+}
+
 
 .main {
     float: left;
@@ -108,28 +112,46 @@ li a{
     background-color: #ffffff;
 }
 
-.sidebar li{
-    height: 20px;
-    width: 20px;
-    display: inline-block;
-    padding: 20px;
-}
-
 .content:after{
     content: "";
     display: block;
     clear:both;
 }
+
+.sidebar ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar li{
+    height: 80px;
+    width: 60px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.sidebar img a {
+    padding: 10px;
+}
+
+
 .box{
     height: auto;
 }
 
 
 footer{
-
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
-    height: 80px;
+    text align: center; 
+    font-size: 14px;
+    margin: 0px;
 
 }
 
