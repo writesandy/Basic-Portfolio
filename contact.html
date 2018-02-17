@@ -7,55 +7,46 @@
     <title>Basic Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
-    <div class="wrapper">
-    <div class="header">
     <header>
         <h1>Sandra Peterson</h1>
-        <nav>
-        <div id="fixed">
-             <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-             </ul>
-        </div>
-        </nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#.html">Contact</a></li>
+        </ul>
     </header>
-    </div>
-    <div class="content">
-    <div class="main box">
-        <h2>Contact</h2>
-        <div class id="Content2">
-            <hr>
-            Name:<br>
-            <input type="text" name="firstname" value="John Smith" size= "70">
-            <br><br>
-            Email:<br>
-            <input type="text" name="email" value="example@gmail.com" size= "70"> 
-            <br><br>
-            Message:<br>
-            <input type="textarea" name="message" value="" width:70 height: 40>
-            <br>
-            <br>
-            <input type="submit" value="Submit">
+    <main>
+        <div class="wrapper">
+        <div class="content">
+        <div class="main box">
+            <h2>Contact</h2>
+                <hr>
+                <form action="/action_page.php">
+                    Name:<br>
+                    <input type="text" name="Name" value="John Smith"><br>
+                    Email:<br>
+                    <input type="email" name="email" value="example@gmail.com"><br>
+                    Message:<br>
+                    <textarea name="message">
+                    </textarea>
+                    <input type="button" value="Submit">
+                  </form>
             </div>
-    </div>
-    <div class="sidebar box">
-        <h2>Connect with Me</h2>
-        <hr>
-            <ul>
-                <li><a href="https://github.com/writesandy"><img src="./assets/images/github.png" alt="GitHub" height="60" width="60" ></a></li>
-                <li><a href="https://www.linkedin.com/in/sandra-peterson-2a755019/"><img src="./assets/images/linkedin.png" alt ="LinkedIn" height="60" width="60"></a></li>
-                <li><a href="https://stackexchange.com/users/12789291/writesandy"><img src="./assets/images/stackoverflow.png" alt="Stack Overflow" height="60" width="60"></a></li>
-            </ul>
-    </div>
-    </div>
-    <div class="footer">
+            <div class="sidebar box">
+            <h2>Connect with Me</h2>
+            <hr>
+                <ul>
+                    <li><a href="https://github.com/writesandy"><img src="./assets/images/github.png" alt="GitHub" height="60" width="60" ></a></li>
+                    <li><a href="https://www.linkedin.com/in/sandra-peterson-2a755019/"><img src="./assets/images/linkedin.png" alt ="LinkedIn" height="60" width="60"></a></li>
+                    <li><a href="https://stackexchange.com/users/12789291/writesandy"><img src="./assets/images/stackoverflow.png" alt="Stack Overflow" height="60" width="60"></a></li>
+                </ul>
+        </div>
+        </div>
+    </main>
     <footer>
-        <p>Copyright 2018 Sandra Peterson</p>
+        <p>&copy 2018 Sandra Peterson</p>
     </footer>
     </div>
     </div>
