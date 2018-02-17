@@ -6,6 +6,8 @@ Footer background color: #666666
 Main content background color: #ffffff
 Main content border color: #dddddd */
 
+@import url("../reset.css");
+
 * {
     box-sizing: border-box;
     
@@ -160,6 +162,7 @@ textarea {
 }
 
 input[type=button] {
+    color: #ffffff;
     width: 100px;
     height: 40px;
     background-color: #4aaaa5;
