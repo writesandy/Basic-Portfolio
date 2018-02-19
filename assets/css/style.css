@@ -164,6 +164,7 @@ li a:hover{
 
 input[type=text], [type=email]  {
     width:100%;
+    color: #777777
 }
 
 textarea {
